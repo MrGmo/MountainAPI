@@ -4,7 +4,7 @@ async function callAPI(){
   const mountainName = document.querySelector('input').value
 
   try{
-    const response = await fetch(`http://localhost:4000/api/sevenSummits/${mountainName}`)
+    const response = await fetch(`https://simple-mountainapi.herokuapp.com/api/sevenSummits/${mountainName}`)
     const data = await response.json()
     console.log(data)
     document.querySelector('.one').innerText = 'Location: ' + data["Location"]
