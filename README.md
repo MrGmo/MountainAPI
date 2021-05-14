@@ -2,7 +2,7 @@
 
 Hi there!
 
-This repo holds a simple mountain API I created that lists the location, elevation, and first ascent of each of the Seven Summits (the highest mountain on each continent).
+This repo holds a simple mountain API. When called it will return the location, elevation, and first ascent of each of the Seven Summits (the highest mountain on each continent) in the world.
 
 Link, deployed to heroku: https://simple-mountainapi.herokuapp.com/
 
