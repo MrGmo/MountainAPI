@@ -9,7 +9,7 @@ Link, deployed to heroku: https://simple-mountainapi.herokuapp.com/
 Tech used:
 HTML and Javascript
 
-The API is built using express, cors, and fetch wrapped in a async await function. You can create a simple front end which just takes the name of one of the seven summits (ex: Aconcagua, Kilimanjaro,...) and it will yield the above information. 
+The API is built using express, cors, and fetch wrapped in a async await function. You can create a simple front end which just takes the name of one of the seven summits (ex: Aconcagua, Kilimanjaro, etc...) and will yield the above information. 
 
 
 Optimizations:
